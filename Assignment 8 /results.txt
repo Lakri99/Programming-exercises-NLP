@@ -1,0 +1,299 @@
+(base) [rbl@rb-pc SNLP]$ /home/rbl/miniconda3/envs/snlp/bin/python "/home/rbl/Documents/DSAI_saarland/SNLP/EX8/ex8_3 copy.py"
+[nltk_data] Downloading package stopwords to /home/rbl/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+5000
+----------------------Count vector -------------------------------
+n_gram: (1, 1)  C: 0.5
+confusion matrix
+[[393 116]
+ [ 53 438]]
+accuracy score
+0.831
+Classification report
+              precision    recall  f1-score   support
+
+         0.0       0.88      0.77      0.82       509
+         1.0       0.79      0.89      0.84       491
+
+    accuracy                           0.83      1000
+   macro avg       0.84      0.83      0.83      1000
+weighted avg       0.84      0.83      0.83      1000
+
+n_gram: (1, 1)  C: 0.7
+confusion matrix
+[[421  88]
+ [ 51 440]]
+accuracy score
+0.861
+Classification report
+              precision    recall  f1-score   support
+
+         0.0       0.89      0.83      0.86       509
+         1.0       0.83      0.90      0.86       491
+
+    accuracy                           0.86      1000
+   macro avg       0.86      0.86      0.86      1000
+weighted avg       0.86      0.86      0.86      1000
+
+n_gram: (1, 1)  C: 1.0
+confusion matrix
+[[439  70]
+ [ 54 437]]
+accuracy score
+0.876
+Classification report
+              precision    recall  f1-score   support
+
+         0.0       0.89      0.86      0.88       509
+         1.0       0.86      0.89      0.88       491
+
+    accuracy                           0.88      1000
+   macro avg       0.88      0.88      0.88      1000
+weighted avg       0.88      0.88      0.88      1000
+
+n_gram: (2, 2)  C: 0.5
+confusion matrix
+[[117 392]
+ [  6 485]]
+accuracy score
+0.602
+Classification report
+              precision    recall  f1-score   support
+
+         0.0       0.95      0.23      0.37       509
+         1.0       0.55      0.99      0.71       491
+
+    accuracy                           0.60      1000
+   macro avg       0.75      0.61      0.54      1000
+weighted avg       0.76      0.60      0.54      1000
+
+n_gram: (2, 2)  C: 0.7
+confusion matrix
+[[212 297]
+ [ 31 460]]
+accuracy score
+0.672
+Classification report
+              precision    recall  f1-score   support
+
+         0.0       0.87      0.42      0.56       509
+         1.0       0.61      0.94      0.74       491
+
+    accuracy                           0.67      1000
+   macro avg       0.74      0.68      0.65      1000
+weighted avg       0.74      0.67      0.65      1000
+
+n_gram: (2, 2)  C: 1.0
+confusion matrix
+[[254 255]
+ [ 39 452]]
+accuracy score
+0.706
+Classification report
+              precision    recall  f1-score   support
+
+         0.0       0.87      0.50      0.63       509
+         1.0       0.64      0.92      0.75       491
+
+    accuracy                           0.71      1000
+   macro avg       0.75      0.71      0.69      1000
+weighted avg       0.76      0.71      0.69      1000
+
+done in 157.092s
+----------------------TF-IDF vector-------------------------------
+n_gram: (1, 1)  C: 0.5
+confusion matrix
+[[435  74]
+ [ 48 443]]
+accuracy score
+0.878
+Classification report
+              precision    recall  f1-score   support
+
+         0.0       0.90      0.85      0.88       509
+         1.0       0.86      0.90      0.88       491
+
+    accuracy                           0.88      1000
+   macro avg       0.88      0.88      0.88      1000
+weighted avg       0.88      0.88      0.88      1000
+
+n_gram: (1, 1)  C: 0.7
+confusion matrix
+[[452  57]
+ [ 44 447]]
+accuracy score
+0.899
+Classification report
+              precision    recall  f1-score   support
+
+         0.0       0.91      0.89      0.90       509
+         1.0       0.89      0.91      0.90       491
+
+    accuracy                           0.90      1000
+   macro avg       0.90      0.90      0.90      1000
+weighted avg       0.90      0.90      0.90      1000
+
+n_gram: (1, 1)  C: 1.0
+confusion matrix
+[[461  48]
+ [ 41 450]]
+accuracy score
+0.911
+Classification report
+              precision    recall  f1-score   support
+
+         0.0       0.92      0.91      0.91       509
+         1.0       0.90      0.92      0.91       491
+
+    accuracy                           0.91      1000
+   macro avg       0.91      0.91      0.91      1000
+weighted avg       0.91      0.91      0.91      1000
+
+n_gram: (2, 2)  C: 0.5
+confusion matrix
+[[  5 504]
+ [  0 491]]
+accuracy score
+0.496
+Classification report
+              precision    recall  f1-score   support
+
+         0.0       1.00      0.01      0.02       509
+         1.0       0.49      1.00      0.66       491
+
+    accuracy                           0.50      1000
+   macro avg       0.75      0.50      0.34      1000
+weighted avg       0.75      0.50      0.33      1000
+
+n_gram: (2, 2)  C: 0.7
+confusion matrix
+[[ 96 413]
+ [  0 491]]
+accuracy score
+0.587
+Classification report
+              precision    recall  f1-score   support
+
+         0.0       1.00      0.19      0.32       509
+         1.0       0.54      1.00      0.70       491
+
+    accuracy                           0.59      1000
+   macro avg       0.77      0.59      0.51      1000
+weighted avg       0.78      0.59      0.51      1000
+
+n_gram: (2, 2)  C: 1.0
+confusion matrix
+[[401 108]
+ [ 48 443]]
+accuracy score
+0.844
+Classification report
+              precision    recall  f1-score   support
+
+         0.0       0.89      0.79      0.84       509
+         1.0       0.80      0.90      0.85       491
+
+    accuracy                           0.84      1000
+   macro avg       0.85      0.85      0.84      1000
+weighted avg       0.85      0.84      0.84      1000
+
+done in 170.025s
+
+----------------------Naive bayes -------------------------------
+n_gram: (1, 1)  alpha: 0.5
+confusion matrix
+[[463  46]
+ [ 54 437]]
+accuracy score
+0.9
+Classification report
+              precision    recall  f1-score   support
+
+         0.0       0.90      0.91      0.90       509
+         1.0       0.90      0.89      0.90       491
+
+    accuracy                           0.90      1000
+   macro avg       0.90      0.90      0.90      1000
+weighted avg       0.90      0.90      0.90      1000
+
+n_gram: (1, 1)  alpha: 0.7
+confusion matrix
+[[463  46]
+ [ 54 437]]
+accuracy score
+0.9
+Classification report
+              precision    recall  f1-score   support
+
+         0.0       0.90      0.91      0.90       509
+         1.0       0.90      0.89      0.90       491
+
+    accuracy                           0.90      1000
+   macro avg       0.90      0.90      0.90      1000
+weighted avg       0.90      0.90      0.90      1000
+
+n_gram: (1, 1)  alpha: 1.0
+confusion matrix
+[[463  46]
+ [ 52 439]]
+accuracy score
+0.902
+Classification report
+              precision    recall  f1-score   support
+
+         0.0       0.90      0.91      0.90       509
+         1.0       0.91      0.89      0.90       491
+
+    accuracy                           0.90      1000
+   macro avg       0.90      0.90      0.90      1000
+weighted avg       0.90      0.90      0.90      1000
+
+n_gram: (2, 2)  alpha: 0.5
+confusion matrix
+[[459  50]
+ [ 67 424]]
+accuracy score
+0.883
+Classification report
+              precision    recall  f1-score   support
+
+         0.0       0.87      0.90      0.89       509
+         1.0       0.89      0.86      0.88       491
+
+    accuracy                           0.88      1000
+   macro avg       0.88      0.88      0.88      1000
+weighted avg       0.88      0.88      0.88      1000
+
+n_gram: (2, 2)  alpha: 0.7
+confusion matrix
+[[458  51]
+ [ 67 424]]
+accuracy score
+0.882
+Classification report
+              precision    recall  f1-score   support
+
+         0.0       0.87      0.90      0.89       509
+         1.0       0.89      0.86      0.88       491
+
+    accuracy                           0.88      1000
+   macro avg       0.88      0.88      0.88      1000
+weighted avg       0.88      0.88      0.88      1000
+
+n_gram: (2, 2)  alpha: 1.0
+confusion matrix
+[[458  51]
+ [ 66 425]]
+accuracy score
+0.883
+Classification report
+              precision    recall  f1-score   support
+
+         0.0       0.87      0.90      0.89       509
+         1.0       0.89      0.87      0.88       491
+
+    accuracy                           0.88      1000
+   macro avg       0.88      0.88      0.88      1000
+weighted avg       0.88      0.88      0.88      1000
+
+done in 12.728s
