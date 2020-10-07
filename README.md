@@ -1,7 +1,7 @@
 # Programming-exercises-NLP for SNLP Summer 2020
-Each folder consists of the 
-1. Problem statemnet (PDF) 
-2. Source code folder that contains the solutions 
+Each assignment consists of 
+1. Problem statement (PDF) 
+2. Implementation Source code folder 
 3. Analysis (PDF) of the results. 
 
 #  Requirements
